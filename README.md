@@ -2,6 +2,10 @@
 
 Query and mutate Redux state safely.
 
+## Installation
+
+`yarn add safety-redux`
+
 ## example
 ```js
 import React from 'react'
