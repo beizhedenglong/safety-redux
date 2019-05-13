@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`safety-redux 1`] = `
+<div>
+  <div>
+    <span>
+      Name: Victor
+    </span>
+    <br />
+    <span>
+      Age: 20 
+    </span>
+    <button>
+      +1
+    </button>
+    <button>
+      -1
+    </button>
+  </div>
+</div>
+`;

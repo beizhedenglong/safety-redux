@@ -1,0 +1,53 @@
+{
+  "name": "safety-redux",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.umd.js",
+  "module": "dist/index.mjs",
+  "source": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel ./example/index.html --out-dir build",
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "jest --coverage --config=jest.config.js",
+    "report-coverage": "cat ./coverage/lcov.info | coveralls"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@types/jest": "^23.3.10",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.5",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react-hooks": "next",
+    "jest": "^23.6.0",
+    "jest-dom": "^3.0.0",
+    "microbundle": "^0.6.0",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^7.0.3",
+    "react-testing-library": "^5.9.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1"
+  },
+  "dependencies": {
+    "js-lens": "^0.1.1"
+  }
+}
